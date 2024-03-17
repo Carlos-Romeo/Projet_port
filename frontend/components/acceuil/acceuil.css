@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+}
+
+.first_connexion{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+.connexion{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.info{
+    width: 80%;
+    position: relative;
+/*     height: 100%; */
+    padding: 20px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+
+}
+
+h1{
+    color: white;
+
+}
+
+.block_connect{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+.header{
+    background-image: url('../../assets/portnuit.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 40vh;
+
+}
+.block{
+    height: 100%;
+    width: 100%;
+    background-color: #00000098;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #fca311;
+    text-decoration: none;
+}
+
+
+/* User */
+
+.users{
+    height: 40px;
+    width: 100%;
+    border:solid 2px #fca311;
+}
+
+
+
+/* horaire */
+
+.horaire{
+    height: 100px;
+    width: 100%;
+    border: solid 2px #14213d;
+}
+
+
+/* rapport input */
+
+.parent_3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+
+
+form{
+    height: 80%;
+    width: 70%;
+    background-color: #14213d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 40px;
+}
+
+table{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;    
+}
+
+tbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+tr{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+    width: 100%;
+}
+
+td{
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: solid 5px #fca311;
+    border-radius: 30px;
+}
+
+input:hover{
+    border-bottom: solid 5px #000000;
+    transition: all 0.8s;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-bottom: solid 5px #fca311;
+    border-radius: 30px;
+    background-color: black;
+    color:#fca311;
+}
+
+h1{
+    color: #fca311;
+}
+
+label{
+    color:#fca311
+}
+
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: solid 5px #fca311;
+    border-radius: 30px;
+}
