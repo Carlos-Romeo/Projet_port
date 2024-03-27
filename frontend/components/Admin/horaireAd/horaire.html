@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saisie de l'horaire de débarcation</title>
+    <link rel="stylesheet" href="horaire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+          <li><h2><a href="../acceuilAd/admin1.html">Dashboard admin</a></h2></li>
+            <li><a href="./horaire.html"><i  class="fa">&#xf073;</i> Horaires de débarcation des  navires</a></li>
+          <li><a href="./autorisation.html"><i class="fa">&#xf044;</i> Autaurisation d'access</a></li>
+          <li><a href="./messagerie.html"><i class="fa">&#xf0e5;</i> Messagerie</a></li>
+          <li><a href="../rapportAd/rapport.html"><i class="fa">&#xf201;</i> Rapport d'activites</a></li>
+        </ul>
+      </div>
+    <div class="container">
+        <h1>Saisie de l'horaire de débarcation</h1>
+        <form id="shipForm">
+            <div class="form-group">
+                <label for="navire">Nom du navire :</label>
+                <input type="text" id="navire" name="navire" required>
+            </div>            
+            <div class="form-group">
+                <label for="navire_contenu">Contenu du navire :</label>
+                <input type="text" id="navire_contenu" name="navire_contenu" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Horaire de débarcation :</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <button type="submit">Valider</button>
+        </form>
+        <div id="confirmation" class="hidden">
+            <p>Les informations ont été enregistrées avec succès :</p>
+            <p id="shipInfo"></p>
+        </div>
+    </div>
+
+    <script src="horaire.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

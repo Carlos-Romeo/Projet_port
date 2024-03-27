@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="rapport.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+          <li><h2><a href="../acceuilAd/admin1.html">Dashboard admin</a></h2></li>
+          <li><a href="../horaireAd/horaire.html"><i  class="fa">&#xf073;</i> Horaires de débarcation des  navires</a></li>
+          <li><a href="./autorisation.html"><i class="fa">&#xf044;</i> Autaurisation d'access</a></li>
+          <li><a href="./messagerie.html"><i class="fa">&#xf0e5;</i> Messagerie</a></li>
+          <li><a href="./rapport.html"><i class="fa">&#xf201;</i> Rapport d'activites</a></li>
+        </ul>
+      </div>
+    <div class="container">
+        <h1>Rapport d'activités du client</h1>
+<!--         <form id="reportForm">
+            <label for="clientName">Nom du client:</label>
+            <input type="text" id="clientName" required>
+            <button type="button" onclick="generateReport()">Générer le rapport</button>
+        </form> -->
+        
+<!--         <div id="reportContainer"></div> -->
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-firestore.js"></script>
+    <script src="./rapport.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
+

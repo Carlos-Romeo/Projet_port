@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul>
+      <li><h2>Dashboard admin</h2></li>
+      <li><a href="../horaireAd/horaire.html"><i  class="fa">&#xf073;</i> Horaires de débarcation des  navires</a></li>
+      <li><a href="./autorisation.html"><i class="fa">&#xf044;</i> Autaurisation d'access</a></li>
+      <li><a href="./messagerie.html"><i class="fa">&#xf0e5;</i> Messagerie</a></li>
+      <li><a href="../rapportAd/rapport.html"><i class="fa">&#xf201;</i> Rapport d'activites</a></li>
+    </ul>
+  </div>
+  
+  <div class="sidebar2">
+    <div class="welcome"><h3> WELCOME BACK </h3>
+      <div class="profil"><h1><i class="fa">&#xf2c0;</i>nom user</h1></div>
+    </div>
+    <div class="container">
+      <div class="calendar">
+        <div id="date"></div>
+      </div> 
+    </div>
+    <h2 >PENSE-BETE</h2>
+     <div class="note">
+      <label for="noteText">Entrez votre note :</label>
+      <br>
+      <textarea id="noteText"></textarea>
+      <button id="deleteButton" class="supp">Supprimer</button>
+  </div>
+  </div>
+
+  <div class="content">
+    <div class="card1">
+        <div><img src="../img/undraw_login_re_4vu2.svg" alt="Illustration de gestion des autorisations d'accès"></div>
+        Gestion des autorisations d'accès 
+    </div>
+    <div class="card2">
+        <p><img src="../img/undraw_social_networking_re_i1ex.svg" alt="Illustration de messagerie instantanée"></p>
+        Messagerie instantanée
+    </div>
+    <div class="card3">
+        <p><img src="../img/undraw_time_management_re_tk5w (1).svg" alt="Illustration de gestion des horaires"></p>
+        Gestion des horaires
+    </div>
+
+    <div class="card4">
+        <p><img src="../img/undraw_at_work_re_qotl.svg" alt="Illustration de rapport d'activité"></p>
+        Rapport d'activité
+    </div>
+</div>
+
+
+  <script src="../script.js"></script>
+
+</body>
+</html>
