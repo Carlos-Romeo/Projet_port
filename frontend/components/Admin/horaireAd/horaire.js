@@ -1,20 +1,3 @@
-/* document.getElementById('shipForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    var shipName = document.getElementById('shipName').value;
-    var arrivalTime = document.getElementById('arrivalTime').value;
-    var cargoWeight = document.getElementById('cargoWeight').value;
-    var cargoVolume = document.getElementById('cargoVolume').value;
-
-    var shipInfo = "Nom du navire : " + shipName + "<br>Horaire de débarcation : " + arrivalTime + "<br>Poids total de la cargaison : " + cargoWeight + " kg<br>Volume occupé par la cargaison : " + cargoVolume + " m³";
-
-    document.getElementById('shipInfo').innerHTML = shipInfo;
-    document.getElementById('confirmation').classList.remove('hidden');
-});
-
-
- */
-
 
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('form').addEventListener('submit', function (e) {
@@ -44,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (response.ok) {
             console.log("ok");
             
-/*             window.location.href = '../acceuil/acceuil.html';  */
+
         } else {
             console.error("Échec de l'authentification");
         }}   

@@ -60,6 +60,10 @@ fetch('http://localhost:5000/user/users')
 
         first_child.appendChild(space)
 
+        selectUs.addEventListener("click", ()=>{
+            window.location.href = "../chat-app-main/public/index.html";
+        })
+
     }
 
 })

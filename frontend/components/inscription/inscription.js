@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(  response => {            
             if (response.ok) {
             console.log("ok");
-            if (job == 'travaileur'){
+            if (job == 'travailleur'){
                 window.location.href = '../acceuil/acceuil.html';
             }else if(job == 'admin'){
                 window.location.href = '../Admin/acceuilAd/admin1.html'
