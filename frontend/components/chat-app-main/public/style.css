@@ -3,6 +3,13 @@
   margin: 0;
   padding:0;
  }
+
+ body{
+  background-image: url(../../../assets/lk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+ }
  /* Chat bubble styling */
  .chat-container {
   display: flex;

@@ -8,14 +8,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;  
-    background-image: url(../../assets/lk.png);
+    background-image: url(../../../assets/lk.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;  
 }
 
 .comtain{
-    height: 165vh;
+    height: 220vh;
     width: 100%;
     display: flex;
     justify-content: center;

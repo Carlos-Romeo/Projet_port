@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(../../../assets/lk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
   
   }
 
@@ -69,6 +73,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .content h1{

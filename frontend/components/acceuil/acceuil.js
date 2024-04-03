@@ -24,12 +24,6 @@ let rapport = document.getElementById("rapport");
 
 
 
-
-
-
-
-
-
 fetch('http://localhost:5000/user/users')
 
 .then( response => response.json())
@@ -48,13 +42,29 @@ fetch('http://localhost:5000/user/users')
 
         first_child.appendChild(selectUs);
 
+        
         let param = document.createElement("p");
 
         param.className = 'paramstyle'
 
         selectUs.appendChild(param);
 
+        param.style.color =''
+
         param.textContent = parcours[i].nom;
+        let param1 = document.createElement("p");
+        
+        param1.className = 'paramstyle'
+        
+        selectUs.appendChild(param1);
+        
+        param1.textContent = "Ecrire à Mr/M ";
+        let param2 = document.createElement("section");
+
+        param2.className = 'DD'
+
+        selectUs.appendChild(param2);
+
 
         let space = document.createElement("br")
 
@@ -73,12 +83,6 @@ fetch('http://localhost:5000/user/users')
     console.error("Erreur lors de la reception des données au serveur:", error);
 
 });
-
-
-
-
-
-
 
 
 
