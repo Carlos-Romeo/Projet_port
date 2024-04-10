@@ -11,3 +11,10 @@ et ensuit vient la douane qui se connecterais rien que pour validé l'entrer des
 
 
 la gestion des authorisation ainsi que le token fait défaut au projets et l'envoie des donné douaniere à la base.
+
+
+lancer le projet en rentrant dans le dossier backend du projet et en le mettant en marche avec la commande nodemon.
+
+notre base de donnée nommé Projet_port est constituer de 6 table (authorisation, douane_déclare, message, planification, rapport, utilisateurs). Elle stocke donc les donnée envoyer depuis l'interface utilisateur et les donnée sont receuilli et afficher à l'interface de l'utilisateur au quelle c'est destiné. 
+
+nos dernieres mis à jour n'ont pas été commité sur gitHub parce qu'on à recontrer un erreur de derniere minute en qu'on n'a pas réussi à corrigé avant la fin du temps inparti. donc il y a des images que j'ai du capture pour vous montré en quelque sort ceux à quoi ressenble le projet au cas le server au lancement crackerais chez vous ou autre bug.
